@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    background-color: seashell;
+}
+
+h1 {
+    font-family: serif;
+    font-style: italic;
+    font-size: 70px;
+    margin: 0.2em;
+    color: rgba(80,10,20,30.6);
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                 0px -5px 35px rgba(255,255,255,0.3);
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table, tr, td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+}
